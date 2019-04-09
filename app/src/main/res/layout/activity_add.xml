@@ -16,8 +16,7 @@
         android:id="@+id/edit_text_file_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_toEndOf="@+id/button_choose_image"
+
         android:hint="Enter description" />
 
     <ImageView
@@ -34,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button_upload"
-        android:layout_alignParentStart="true"
+
         android:layout_marginBottom="16dp" />
 
     <Button
@@ -51,8 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button_upload"
         android:layout_alignTop="@+id/button_upload"
-        android:layout_marginStart="25dp"
-        android:layout_toEndOf="@+id/button_upload"
+
         android:gravity="center"
         android:text="Show Uploads"
         android:textSize="16sp" />

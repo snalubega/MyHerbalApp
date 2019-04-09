@@ -70,6 +70,7 @@ public class ImagesActivity extends AppCompatActivity {
         mImageUrls.add("http://avatars.design/wp-content/uploads/2016/09/avatar1b.jpg");
         mNames.add("Currently not available");
 
+
         initRecyclerView();
     }
 

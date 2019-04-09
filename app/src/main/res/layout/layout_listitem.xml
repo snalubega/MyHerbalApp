@@ -27,5 +27,12 @@
         android:textSize="17sp"
         />
 
+    <fragment
+        android:id="@+id/my_list_fragment"
+        android:name="com.bumptech.glide.manager.SupportRequestManagerFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+
 
 </RelativeLayout>
